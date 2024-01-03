@@ -25,3 +25,4 @@ The model tackles the intricate task of describing videos by proposing a multi-s
 1. NLP PART: The user-provided text undergoes a meticulous journey, including segmentation into sentences, entity extraction, and engagement with a Named Entity Module, showcasing a nuanced understanding of textual nuances.
 2. CV PART: The Computer Vision (CV) part encompasses the complete spectrum, from collecting text for video generation to model selection (e.g., CRAFT, TFGAN, GODIVA), dataset division, training, testing, and optimization. This approach ensures meaningful and contextually rich video creation.
 
+![process](https://github.com/apekkshaa/text-to-video-generation-model/blob/main/Images/process.png)
