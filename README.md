@@ -4,7 +4,8 @@ Damo-vilab Text-to-Videos model leverages a sophisticated multi-stage diffusion 
 Exclusively designed for English input, the model comprises three integral sub-networks:<br>
 1. Text feature extraction model
 2. Text feature-to-video latent space diffusion model
-3. Video latent space to video visual space model
+3. Video latent space to video visual space model<br><br>
+![process](https://github.com/apekkshaa/text-to-video-generation-model/blob/main/Images/process.png)
 
 The model employs a UNet3D structure for its diffusion process, generating videos iteratively through denoising from pure Gaussian noise video.
 Also finds application across diverse scenarios, offering the ability to reason and generate videos based on arbitrary English text descriptions.
@@ -24,5 +25,3 @@ GENERATION FROM VIDEOS TO TEXT<br>
 The model tackles the intricate task of describing videos by proposing a multi-step approach that synergizes Natural Language Processing (NLP) and Computer Vision (CV) components, exemplifying a holistic understanding of both domains.
 1. NLP PART: The user-provided text undergoes a meticulous journey, including segmentation into sentences, entity extraction, and engagement with a Named Entity Module, showcasing a nuanced understanding of textual nuances.
 2. CV PART: The Computer Vision (CV) part encompasses the complete spectrum, from collecting text for video generation to model selection (e.g., CRAFT, TFGAN, GODIVA), dataset division, training, testing, and optimization. This approach ensures meaningful and contextually rich video creation.
-
-![process](https://github.com/apekkshaa/text-to-video-generation-model/blob/main/Images/process.png)
